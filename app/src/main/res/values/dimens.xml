@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="navigation_height">11dp</dimen>
+    <dimen name="navigation_painter_down_value">3dp</dimen>
+
+    <dimen name="navigation_shadow">1dp</dimen>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/navigation_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        android:tint="@drawable/navigation_tint"
+        app:srcCompat="@drawable/ic_navigation_product_normal" />
+
+    <ImageView
+        android:id="@+id/navigation_saved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_navigation_saved_normal"
+        android:tint="@drawable/navigation_tint" />
+
+    <ImageView
+        android:id="@+id/navigation_stores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_navigation_stores_normal"
+        android:tint="@drawable/navigation_tint" />
+
+    <ImageView
+        android:id="@+id/navigation_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_navigation_more_normal"
+        android:tint="@drawable/navigation_tint" />
+
+    <com.example.mateusz.bottomnavigation.ForegroundImageView
+        android:id="@+id/navigation_painter"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/painter_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_navigation_painter" />
+
+</merge>
